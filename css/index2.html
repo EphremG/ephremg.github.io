@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.5fr;
+        row-gap: 10px;
+        column-gap: 30px;
+        color: white;
+        justify-content: center;
+        background-color: rgb(22, 19, 19);
+        padding:5%;
+    }
+    .heading{
+        color:rgb(244, 242, 242);
+        font-size: 20px;
+
+    }
+    .aboutMeMargin{
+        color: gray;
+        margin-bottom: 40px;
+    }
+    .emailBox{
+        height:40px;
+        width: 90%;
+        background-color: darkslategray;
+        border-radius: 40px;
+        position: relative;
+        align-items: center;
+    }
+    .enterEmailText{
+       flex: 1;
+       margin: 0;
+    }
+    .send{
+        position: absolute;
+        top: 0;
+        left: 83%;
+    }
+    .latesttweet{
+        display: grid;
+        column-gap: 15px;
+        align-content: start;
+        grid-template-columns: 20px 1fr;
+
+    }
+    .tweet{
+        color:rgb(155, 143, 143);
+        font-style: italic;
+    }
+    .tweetimg{
+        object-fit: contain;
+        margin-top: 20px;
+    }
+
+    .instagram{
+        gap: 50px;
+    }
+    
+    .imgClass{
+        width:40%;
+        object-fit: contain;
+    } 
+    .footerblock{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        background-color: rgb(22, 19, 19);
+    }
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+        <p class="heading">About Me</p>
+        <p class="heading">Latest Tweet</p>
+        <p class="heading">Instagram</p>
+        <div>
+            <p class="aboutMeMargin">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+                Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+            </p>
+            <p style="color:white;">
+                <img src="images/image2.jpeg" style="width:20px;"> 322323
+            </p>
+            <p style="color:white;">
+                <img src="images/image2.jpeg" style="width:20px;"> email.com
+            </p>
+            <div class="emailBox">
+                <p class="enterEmailText" style="padding: 10px;">Enter your e-mail</p>
+                <div class="send" style="border-radius:40px;background-color: brown;color:white;">
+                    <p style="padding:0px 30px;line-height: 10px;"> Send</p>
+                </div>
+                
+            </div>
+           
+        </div>
+          <div class="latesttweet">
+             <img class="tweetimg" src="images/image2.jpeg" style="width:20px;">          
+           <p class="tweet"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+                Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+            </p>
+            <img class="tweetimg" src="images/image2.jpeg" style="width:20px;">          
+           <p class="tweet">  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+                    Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+                </p>
+                 <img class="tweetimg"src="images/image2.jpeg" style="width:20px;">          
+                 <p class="tweet">      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+                        Nulla at volutpat diam ut venenatis tellus. Sed id semper risus
+                 </p>
+        </div>
+   
+        <!-- Instagram Column -->
+        <div class="instagram">
+            <img src="images/image1.jpeg" alt="" class="imgClass">
+            <img src="images/image1.jpeg" alt="" class="imgClass">
+            <img src="images/image1.jpeg" alt="" class="imgClass">
+            <img src="images/image1.jpeg" alt="" class="imgClass">
+        </div>
+        </div>
+    
+        <div class="footerblock">
+            <div style="border-top:2px solid #72676780">&nbsp;</div>
+            <div style="display: flex; gap: 15px;">
+                
+                <label style="align-items: start;">Home</label>
+                <label for="">About</label>
+                <label for="">Our Works</label>
+                <label for="">Blog</label>
+                <label for="">Contacts</label>
+            </div>
+            <div style="color: white; font-size: 20px;">
+                   <label for="">Colorlib</label></div>
+          </div>
+   
+</body>
+</html>
