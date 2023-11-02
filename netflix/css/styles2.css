@@ -106,7 +106,7 @@ nav {
 .header-container {
     width: 100% auto;
     height: 100px auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/netflix/img/logo.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/logo.jpeg);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
