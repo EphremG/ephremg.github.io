@@ -46,7 +46,6 @@ nav {
 }
 .header-h1 h1{
     color: #fff;
-    display: block;
     font-size: 3rem;
     font-weight: 700;
     padding-left: 200px;
@@ -54,22 +53,17 @@ nav {
 }
 .header-h3  h3{
     color: #fff;
-    display: block;
     font-size: 1.5rem;
     font-weight: 400;
     padding-left: 400px;
     padding-top: 2px;
 }
 .header-content h3{
-    display: block;
     padding-left: 130px;
     font-size: 1.125rem;
     font-weight: 400;
 }
-.header-content p{
-    display: block;
-    
-}
+
 .header-gredient {
     display: flex;
     height: minmax(100px,auto) ;
